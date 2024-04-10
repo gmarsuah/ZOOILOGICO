@@ -59,7 +59,7 @@ public class Animal {
                 int indiceAccion = random.nextInt(acciones.length);
                 acciones[indiceAccion].run(); // Ejecuta la acción seleccionada
 
-                int tiempoEspera = random.nextInt(3000) + 1000; // Espera entre 1 y 3 segundos
+                int tiempoEspera = random.nextInt(2000) + 1000; // Espera entre 1 y 2 segundos
                 Thread.sleep(tiempoEspera);
             }
         } catch (InterruptedException e) {
