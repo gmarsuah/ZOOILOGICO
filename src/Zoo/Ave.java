@@ -33,4 +33,15 @@ public class Ave extends Animal{
 	public void emitirSonido() {
 		System.out.println(nombre+" está emitiendo sonidos.");
 	}
+	
+	@Override
+    public void verAnimal() {
+        super.verAnimal(); 
+        try {
+            volar();
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
