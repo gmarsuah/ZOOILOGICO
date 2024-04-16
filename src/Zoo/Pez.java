@@ -1,6 +1,6 @@
 package Zoo;
 
-// Haendel, Cristian1, Cristian2, Gonzalo.
+// Haendel, Cristian1, Cristian2, Gonzalo Afonso.
 
 import java.util.Random;
 
