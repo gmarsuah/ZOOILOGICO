@@ -1,5 +1,7 @@
 package Zoo;
 
+//Cristian Perez
+
 import java.util.Random;
 
 public class pezPayaso extends Pez {
