@@ -23,12 +23,12 @@ public class pezPayaso extends Pez {
     @Override
     public void verAnimal() {
         Runnable[] acciones = {
-                //this::comer,
-                //this::dormir,
-                //this::moverse,
-                //this::nadar,
-                //this::respirarBajoAgua,
-                //this::ponerHuevos,
+                this::comer,
+                this::dormir,
+                this::moverse,
+                this::nadar,
+                this::respirarBajoAgua,
+                this::ponerHuevos,
                 this::formarSimbiosis
         };
 
