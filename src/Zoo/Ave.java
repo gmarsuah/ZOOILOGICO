@@ -19,7 +19,7 @@ public class Ave extends Animal{
 		Random random=new Random();
 		this.puedeVolar=random.nextBoolean();
 		this.colorPiel=coloresPlumasPosibles[random.nextInt(coloresPlumasPosibles.length)];
-		this.tamaño=tamañoPosible[random.nextInt(coloresPlumasPosibles.length)];
+		this.tamaño=tamañoPosible[random.nextInt(tamañoPosible.length)];
 	}
 	
 	public void volar() {
