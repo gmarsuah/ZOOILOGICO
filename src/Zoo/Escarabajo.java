@@ -5,8 +5,8 @@ import java.util.Random;
 public class Escarabajo extends Insecto {
   
   // Atributos
-  String[] tiposExoesqueleto = {'quirina', 'bonito', 'feo', 'duro', 'blando'};
-  String[] habitosAlimenticio = {'detritivoro', 'fitofago', 'depredador', 'fotosintesis'};
+  String[] tiposExoesqueleto = {"quirina", "bonito", "feo", "duro", "blando"};
+  String[] habitosAlimenticio = {"detritivoro", "fitofago", "depredador", "fotosintesis"};
   String tipo_exoesqueleto;
   String habito_alimenticio;
   
@@ -48,6 +48,7 @@ public class Escarabajo extends Insecto {
     try {
       this.enterrarse();
       this.defenderse();
+      Thread.sleep(500);
     }catch (InterruptedException e) {
       e.printStackTrace();
     }
