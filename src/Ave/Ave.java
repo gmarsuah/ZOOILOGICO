@@ -1,8 +1,10 @@
 //Hecho por Joan, Damián e Ismael.
 
-package Zoo;
+package Ave;
 
 import java.util.Random;
+
+import Zoo.Animal;
 
 public class Ave extends Animal{
 	protected String colorPiel;

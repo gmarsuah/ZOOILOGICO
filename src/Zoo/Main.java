@@ -2,6 +2,10 @@ package Zoo;
 import java.util.ArrayList;
 import java.util.List;
 
+import Ave.Aguila;
+import Ave.Colibri;
+import Ave.Loro;
+
 public class Main {
 
     public static void main(String[] args) {
