@@ -2,7 +2,7 @@ package Zoo;
 import java.util.Random;
 import java.util.function.ToIntBiFunction;
 
-public class Insecto {
+public class Insecto extends Animal{
   int numeroDePatas;
   Boolean tieneAlas;
   String tipoAlimentacion;
@@ -11,6 +11,7 @@ public class Insecto {
   
   public Insecto() {
     super();
+    Random random = new Random();
     this.numeroDePatas = random.nextInt(6);
     this.tieneAlas = random.nextBoolean();
     this.tipoAlimentacion = tipos_alimentacion[random.nextInt(tipos_alimentacion.length)];
@@ -18,7 +19,7 @@ public class Insecto {
 
   public void volar() {
     if (this.tieneAlas == true) {
-      System.out.prinln(this.nombre + " está volando.");
+      System.out.println(this.nombre + " está volando.");
     } 
   }
 

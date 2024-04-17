@@ -4,7 +4,7 @@ package Zoo;
 
 import java.util.Random;
 
-public class Mamiferos extends Animal {
+public class Mamifero extends Animal {
     protected String colorpelo;
     protected String tipoAlimentacion;
     protected boolean esDomestico;
@@ -13,7 +13,7 @@ public class Mamiferos extends Animal {
     private static final String[] coloresposibles = {"marrón", "negro", "blanco"};
 
     // Constructor sin parámetros
-    public Mamiferos() {
+    public Mamifero() {
         super();
         Random random = new Random();
         this.esDomestico = random.nextBoolean();
@@ -21,7 +21,7 @@ public class Mamiferos extends Animal {
         this.colorpelo = coloresposibles[random.nextInt(coloresposibles.length)];
     }
 
-    public Mamiferos(String colorpelo, String tipoAlimentacion, boolean esDomestico) {
+    public Mamifero(String colorpelo, String tipoAlimentacion, boolean esDomestico) {
         this.colorpelo = colorpelo;
         this.tipoAlimentacion = tipoAlimentacion;
         this.esDomestico = esDomestico;
@@ -42,7 +42,8 @@ public class Mamiferos extends Animal {
                 this::comer,
                 this::dormir,
                 this::moverse,
-                this::nadar
+                this::amamantar,
+                this::emitir_sonido
         };
 
         try {

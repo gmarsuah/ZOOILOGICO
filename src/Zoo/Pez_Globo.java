@@ -7,7 +7,7 @@ import java.util.Random;
 public class Pez_Globo extends Pez {
     protected Boolean Puas;
 
-    public Pez_Globo(String nombre, String edad, String peso, String tamaño, String colorescamas, String tipoAgua) {
+    public Pez_Globo(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua) {
         super(nombre, edad, peso, tamaño, colorescamas, tipoAgua);
         this.Puas = random.nextBoolean();
     }
