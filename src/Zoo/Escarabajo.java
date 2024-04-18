@@ -39,7 +39,7 @@ public class Escarabajo extends Insecto {
   }
 
   public void defenderse() {
-    System.out.println(this.nombre + "el escarabjo se da de tortas con otro bicho.");
+    System.out.println(this.nombre + "el escarabajo se da de tortas con otro bicho.");
   }
 
   @Override
