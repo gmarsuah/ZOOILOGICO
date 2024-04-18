@@ -2,16 +2,24 @@ package Zoo;
 import java.util.ArrayList;
 import java.util.List;
 
+import Ave.Aguila;
+import Ave.Colibri;
+import Ave.Loro;
+
 public class Main {
 
     public static void main(String[] args) {
         List<Animal> listaDeAnimales = new ArrayList<>();
 
         // Añadir animales a la lista
+        listaDeAnimales.add(new Aguila());
+        listaDeAnimales.add(new Loro());
+        listaDeAnimales.add(new Colibri());
         listaDeAnimales.add(new Rana()); // Añade una instancia de Rana
         listaDeAnimales.add(new Salamandra()); // Añade una instancia de Anfibio genérico
         listaDeAnimales.add(new Murcielago());
-
+        listaDeAnimales.add(new Serpiente());
+        
         // Cada alumno puede añadir su animal así:
         // listaDeAnimales.add(new SuAnimal());
 
