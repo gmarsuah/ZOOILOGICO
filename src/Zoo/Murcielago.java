@@ -42,6 +42,7 @@ public class Murcielago extends Mamifero {
         Runnable[] acciones = {
                 this::comer,
                 this::dormir,
+                this::moverse,
                 this::amamantar,
                 this::volar,
                 this::emitir_sonido,
