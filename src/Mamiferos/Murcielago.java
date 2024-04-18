@@ -50,7 +50,7 @@ public class Murcielago extends Mamifero {
         };
 
         try {
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 6; i++) {
                 int indiceAccion = random.nextInt(acciones.length);
                 acciones[indiceAccion].run();
 
