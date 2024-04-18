@@ -24,13 +24,15 @@ public class Murcielago extends Mamifero {
         System.out.println(nombre + "está amamantando");
     }
 
-    public void emitir_sonido() {System.out.println(nombre + " está emitiendo sonidos"); }
+    public void emitir_sonido() {
+        System.out.println(nombre + " está emitiendo sonidos");
+    }
     public void volar() {
-        System.out.println("Las alas de los murciélagos contienen más de dos docenas de articulaciones cada una, y están recubiertas por el patagio. Tienen una extraordinaria capacidad de control sobre sus alas durante el vuelo. El éxito de su eficiencia radica en la membrana flexible de piel que forma sus alas y en sus múltiples articulaciones.")
+        System.out.println("El murciélago" + nombre + "está volando gracias a que las alas de los murciélagos contienen más de dos docenas de articulaciones cada una, y están recubiertas por el patagio. Tienen una extraordinaria capacidad de control sobre sus alas durante el vuelo. El éxito de su eficiencia radica en la membrana flexible de piel que forma sus alas y en sus múltiples articulaciones.")
     }
 
     public void usarEcolocalizacion() {"\n" +
-            "Los murciélagos usan la eco localización para navegar y encontrar comida en la oscuridad. Para eco localizar, los murciélagos emiten ondas sonoras por sus boca o nariz. Cuando las ondas sonoras impactan en un objeto, producen ecos. El eco rebota del objeto y vuelve a las orejas del murciélago"
+            "El murciélago" + nombre + "está usando la eco localización para navegar y encontrar comida en la oscuridad. Para eco localizar, los murciélagos emiten ondas sonoras por sus boca o nariz. Cuando las ondas sonoras impactan en un objeto, producen ecos. El eco rebota del objeto y vuelve a las orejas del murciélago"
 
     }
     @Override
