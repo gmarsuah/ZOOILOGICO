@@ -22,7 +22,7 @@ public class Mariposa extends Insecto {
   @Override
   public void volar() {
       if (this.tieneAlas == true) {
-        System.out.println(this.nombre + " el escarabajo está volando.");
+        System.out.println(this.nombre + " la mariposa está volando.");
       } 
     }
 
