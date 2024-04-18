@@ -1,5 +1,4 @@
-package Zoo;
-
+package Reptil;
 import java.util.Random;
 
 public class Cocodrilo extends Reptil {
