@@ -35,12 +35,27 @@ public class Murcielago extends Mamifero {
             "El murciélago" + nombre + "está usando la eco localización para navegar y encontrar comida en la oscuridad. Para eco localizar, los murciélagos emiten ondas sonoras por sus boca o nariz. Cuando las ondas sonoras impactan en un objeto, producen ecos. El eco rebota del objeto y vuelve a las orejas del murciélago"
 
     }
+
     @Override
     public void verAnimal() {
-        super.verAnimal(); // Llama al método verAnimal de Anfibio y agrega el comportamiento de croar
+        Random random = new Random();
+        Runnable[] acciones = {
+                this::comer,
+                this::dormir,
+                this::amamantar,
+                this::volar,
+                this::emitir_sonido,
+                this::usarEcolocalizacion
+        };
+
         try {
-            croar();
-            Thread.sleep(500); // Espera medio segundo después de croar
+            for (int i = 0; i < 5; i++) {
+                int indiceAccion = random.nextInt(acciones.length);
+                acciones[indiceAccion].run();
+
+                int tiempoEspera = random.nextInt(2000) + 1000;
+                Thread.sleep(tiempoEspera);
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
