@@ -43,6 +43,7 @@ public class Murcielago extends Mamifero {
                 this::comer,
                 this::dormir,
                 this::amamantar,
+                this::moverse,
                 this::volar,
                 this::emitir_sonido,
                 this::usarEcolocalizacion
