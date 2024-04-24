@@ -5,7 +5,7 @@ import java.util.List;
 import Ave.Aguila;
 import Ave.Colibri;
 import Ave.Loro;
-
+import Reptil.Lagarto;
 import Reptil.Serpiente;
 
 public class Main {
@@ -22,9 +22,8 @@ public class Main {
         listaDeAnimales.add(new Salamandra()); // Añade una instancia de Anfibio genérico
         listaDeAnimales.add(new Escarabajo());
         listaDeAnimales.add(new Mariposa());
+        listaDeAnimales.add(new Lagarto());
 
-        // Cada alumno puede añadir su animal así:
-        // listaDeAnimales.add(new SuAnimal());
 
         // Observar a los animales en la lista
         for (Animal animal : listaDeAnimales) {
