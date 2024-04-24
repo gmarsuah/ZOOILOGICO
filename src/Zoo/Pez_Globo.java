@@ -7,8 +7,8 @@ import java.util.Random;
 public class Pez_Globo extends Pez {
     protected Boolean Puas;
 
-    public Pez_Globo(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua) {
-        super(nombre, edad, peso, tamaño, colorescamas, tipoAgua);
+    public Pez_Globo(String nombre, int edad, float peso, String tamano, String colorescamas, String tipoAgua) {
+        super(nombre, edad, peso, tamano, colorescamas, tipoAgua);
         this.Puas = random.nextBoolean();
     }
 

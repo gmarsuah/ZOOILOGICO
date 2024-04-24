@@ -2,11 +2,10 @@ package Zoo;
 import java.util.ArrayList;
 import java.util.List;
 
-import Ave.Aguila;
-import Ave.Colibri;
-import Ave.Loro;
-
-import Mamiferos.*
+import Anfibio.Rana;
+import Anfibio.Salamandra;
+import Ave.*;
+import Mamiferos.*;
 
 import Reptil.Cocodrilo;
 import Reptil.Lagarto;
@@ -25,7 +24,6 @@ public class Main {
         listaDeAnimales.add(new Colibri());
         listaDeAnimales.add(new Rana()); // Añade una instancia de Rana
         listaDeAnimales.add(new Salamandra()); // Añade una instancia de Anfibio genérico
-
         listaDeAnimales.add(new Murcielago());
         listaDeAnimales.add(new Serpiente());
 
