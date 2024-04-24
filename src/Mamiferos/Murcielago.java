@@ -40,17 +40,12 @@ public class Murcielago extends Mamifero {
     public void verAnimal() {
         Random random = new Random();
         Runnable[] acciones = {
-                this::comer,
-                this::dormir,
-                this::amamantar,
-                this::moverse,
-                this::volar,
                 this::emitir_sonido,
                 this::usarEcolocalizacion
         };
 
         try {
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 1; i++) {
                 int indiceAccion = random.nextInt(acciones.length);
                 acciones[indiceAccion].run();
 
