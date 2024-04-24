@@ -2,9 +2,12 @@ package Zoo;
 import java.util.ArrayList;
 import java.util.List;
 
+import Anfibio.Rana;
+import Anfibio.Salamandra;
 import Ave.Aguila;
 import Ave.Colibri;
 import Ave.Loro;
+
 
 public class Main {
 
