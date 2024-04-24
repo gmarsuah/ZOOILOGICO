@@ -1,6 +1,7 @@
 // Codigo hecho por: Jorge Herrero, Ruben Chedas y Alejandro Ares
+package Reptil;
 
-package Zoo;
+import Zoo.Animal;
 
 import java.util.Random;
 
@@ -12,6 +13,13 @@ public class Reptil extends Animal {
 
     // Array de tipos de piel posibles
     private static final String[] tiposPielPosibles = {"escamosa", "coriácea", "rugosa"};
+
+    // Genera un hábitat aleatorio para el reptil
+    private String generarHabitatAleatorio() {
+        String[] habitatsPosibles = {"desierto", "selva", "pantano", "montaña"};
+        Random random = new Random();
+        return habitatsPosibles[random.nextInt(habitatsPosibles.length)];
+    }
 
     // Constructor sin parámetros
     public Reptil() {
@@ -46,12 +54,6 @@ public class Reptil extends Animal {
         System.out.println(nombre + " está reptando.");
     }
 
-    // Genera un hábitat aleatorio para el reptil
-    private String generarHabitatAleatorio() {
-        String[] habitatsPosibles = {"desierto", "selva", "pantano", "montaña"};
-        Random random = new Random();
-        return habitatsPosibles[random.nextInt(habitatsPosibles.length)];
-    }
 
     @Override
     public void verAnimal() {
@@ -59,6 +61,7 @@ public class Reptil extends Animal {
         Runnable[] acciones = {
                 this::comer,
                 this::dormir,
+                this::moverse,
                 this::tomarSol,
                 this::mudarPiel,
                 this::reptar
