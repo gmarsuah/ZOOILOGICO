@@ -20,10 +20,11 @@ public class Murcielago extends Mamifero {
         this.esDomestico = esDomestico;
         this.envergaduraAlas = random.nextInt();
     }
+    @override
     public void amamantar() {
         System.out.println(nombre + "está amamantando");
     }
-
+    @override
     public void emitir_sonido() {
         System.out.println(nombre + " está emitiendo sonidos");
     }
@@ -40,7 +41,11 @@ public class Murcielago extends Mamifero {
     public void verAnimal() {
         Random random = new Random();
         Runnable[] acciones = {
+<<<<<<< HEAD
                 this::emitir_sonido,
+=======
+                this::volar,
+>>>>>>> 1c731fb538119204509fffa502bd4c706b5d56d6
                 this::usarEcolocalizacion
         };
 
