@@ -1,4 +1,4 @@
-package Zoo;
+package Mamiferos;
 
 import java.util.Random;
 
