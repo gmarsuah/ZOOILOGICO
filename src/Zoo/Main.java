@@ -20,7 +20,9 @@ public class Main {
         listaDeAnimales.add(new Colibri());
         listaDeAnimales.add(new Rana()); // Añade una instancia de Rana
         listaDeAnimales.add(new Salamandra()); // Añade una instancia de Anfibio genérico
-        
+        listaDeAnimales.add(new Escarabajo());
+        listaDeAnimales.add(new Mariposa());
+
         // Cada alumno puede añadir su animal así:
         // listaDeAnimales.add(new SuAnimal());
 
