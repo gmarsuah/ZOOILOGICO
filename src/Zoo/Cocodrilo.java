@@ -3,21 +3,21 @@ package Zoo;
 import java.util.Random;
 
 public class Cocodrilo extends Reptil {
-    private double tamaño;
+    private double tamano;
     private double fuerzaMordida;
 
     // Constructor sin parámetros
     public Cocodrilo() {
         super();
         Random random = new Random();
-        this.tamaño = random.nextDouble() * 5 + 1; // Tamaño aleatorio entre 1 y 6 metros
+        this.tamano = random.nextDouble() * 5 + 1; // Tamaño aleatorio entre 1 y 6 metros
         this.fuerzaMordida = random.nextDouble() * 1500 + 1000; // Fuerza de mordida aleatoria entre 1000 y 2500 Newtons
     }
 
     // Constructor con parámetros
-    public Cocodrilo(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat, double tamaño, double fuerzaMordida) {
+    public Cocodrilo(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat, double tamano, double fuerzaMordida) {
         super(nombre, edad, peso, tipoPiel, esVeneno, habitat);
-        this.tamaño = tamaño;
+        this.tamano = tamano;
         this.fuerzaMordida = fuerzaMordida;
     }
 
@@ -35,7 +35,7 @@ public class Cocodrilo extends Reptil {
     @Override
     public void verAnimal() {
         super.verAnimal();
-        System.out.println("Tamaño: " + tamaño + " metros");
+        System.out.println("Tamaño: " + tamano + " metros");
         System.out.println("Fuerza de mordida: " + fuerzaMordida + " Newtons");
     }
 }
