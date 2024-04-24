@@ -1,7 +1,25 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+# Compiled class file
+*.class
+
+# Log file
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
 # Compiled class files
 *.class
 
 # Log files
+<<<<<<< HEAD
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
 *.log
 
 # BlueJ files
@@ -13,6 +31,14 @@
 # Package Files #
 *.jar
 *.war
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.nar
+=======
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+*.nar
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
 *.ear
 *.zip
 *.tar.gz
@@ -20,6 +46,14 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
+<<<<<<< HEAD
+replay_pid*
+=======
+=======
+replay_pid*
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
 
 # Eclipse specific
 .classpath
@@ -70,3 +104,8 @@ Thumbs.db
 
 # Thumbnails
 ehthumbs.db
+<<<<<<< HEAD
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c

@@ -12,9 +12,9 @@ public class Animal {
     	    "Oscar", "Rex", "Toby", "Coco", "Ruby", "Sammy", "Sasha", "Teddy", "Willow", "Zoe",
     	    "Archie", "Bailey", "Bandit", "Bruno", "Cleo", "Ellie", "Finn", "George", "Gizmo", "Harley",
     	    "Jasper", "Koda", "Lola", "Lucky", "Milo", "Nala", "Oliver", "Penny", "Pepper", "Rosie",
-    	    "Simba", "Sophie", "Stella", "Tucker", "Winston", "Ziggy", "Amber", "Apollo", "Blu", "Boomer",
+    	    "Simba", "Sophie", "Stella", "Tucker", "Winston", "Messi", "Ziggy", "Amber", "Apollo", "Blu", "Boomer",
     	    "Chase", "Chester", "Chico", "Duke", "Felix", "Freddie", "Ginger", "Hunter", "Ivy", "Jack",
-    	    "Juno", "Kai", "King", "Leia", "Louie", "Mia", "Murphy", "Nova", "Otis", "Piper",
+    	    "Juno", "Kai", "King", "Leia", "Vinicius Jr", "Louie", "Mia", "Murphy", "Nova", "Otis", "Piper",
     	    "Ranger", "Romeo", "Rusty", "Scout", "Shadow", "Sky", "Spike", "Storm", "Tiger", "Zeus"
     	};
 
