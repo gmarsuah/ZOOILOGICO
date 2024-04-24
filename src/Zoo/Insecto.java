@@ -30,4 +30,29 @@ public class Insecto extends Animal{
   public void alimentarse() {
     System.out.println(this.nombre + " se está alimentando");
   }
+
+  @Override
+    public void verAnimal() {
+        Random random = new Random();
+        Runnable[] acciones = {
+            this::comer,
+            this::dormir,
+            this::moverse,
+            this::alimentarse,
+            this::moverse,
+            this::volar,
+        };
+
+        try {
+            for (int i = 0; i < 5; i++) {
+                int indiceAccion = random.nextInt(acciones.length);
+                acciones[indiceAccion].run();
+
+                int tiempoEspera = random.nextInt(2000) + 1000;
+                Thread.sleep(tiempoEspera);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }
