@@ -2,14 +2,29 @@ package Zoo;
 import java.util.Random;
 import java.util.function.ToIntBiFunction;
 
+/**
+ * The type Insecto.
+ */
 public class Insecto extends Animal{
-  int numeroDePatas;
-  Boolean tieneAlas;
-  String tipoAlimentacion;
+    /**
+     * The Numero de patas.
+     */
+    int numeroDePatas;
+    /**
+     * The Tiene alas.
+     */
+    Boolean tieneAlas;
+    /**
+     * The Tipo alimentacion.
+     */
+    String tipoAlimentacion;
   
   private static final String[] tipos_alimentacion = {"herbívoro", "carnívoro", "nectarívoro", "omnivoro"};
-  
-  public Insecto() {
+
+    /**
+     * Instantiates a new Insecto.
+     */
+    public Insecto() {
     super();
     Random random = new Random();
     this.numeroDePatas = random.nextInt(6);
@@ -17,7 +32,10 @@ public class Insecto extends Animal{
     this.tipoAlimentacion = tipos_alimentacion[random.nextInt(tipos_alimentacion.length)];
   }
 
-  public void volar() {
+    /**
+     * Volar.
+     */
+    public void volar() {
     if (this.tieneAlas == true) {
       System.out.println(this.nombre + " está volando.");
     } 
@@ -27,7 +45,10 @@ public class Insecto extends Animal{
     System.out.println(this.nombre + " se mueve.");
   }
 
-  public void alimentarse() {
+    /**
+     * Alimentarse.
+     */
+    public void alimentarse() {
     System.out.println(this.nombre + " se está alimentando");
   }
 
