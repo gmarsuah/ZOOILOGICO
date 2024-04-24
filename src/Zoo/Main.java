@@ -5,6 +5,7 @@ import java.util.List;
 import Ave.Aguila;
 import Ave.Colibri;
 import Ave.Loro;
+import Reptil.Cocodrilo;
 import Reptil.Lagarto;
 import Reptil.Serpiente;
 
@@ -23,6 +24,7 @@ public class Main {
         listaDeAnimales.add(new Escarabajo());
         listaDeAnimales.add(new Mariposa());
         listaDeAnimales.add(new Lagarto());
+        listaDeAnimales.add(new Cocodrilo());
 
 
         // Observar a los animales en la lista
