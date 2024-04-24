@@ -1,5 +1,4 @@
-package Zoo;
-
+package Reptil;
 import java.util.Random;
 
 public class Serpiente extends Reptil {
@@ -19,38 +18,40 @@ public class Serpiente extends Reptil {
 
     // Constructor con parámetros
     public Serpiente(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat, String longitud, String tipo) {
-        super(nombre, edad, peso, tipoPiel, esVeneno, habitat);
+        super();
         this.longitud = longitud;
         this.tipo = tipo;
     }
 
-    // Método específico de la serpiente para deslizarse
+    // Métodos específicos de los reptiles
+    @Override
+    public void tomarSol() {
+        System.out.println(nombre + " está tomando el sol para termorregularse.");
+    }
+    
+    @Override
+    public void mudarPiel() {
+        System.out.println(nombre + " está mudando de piel.");
+    }
+    
+    @Override
+    public void reptar() {
+        System.out.println(nombre + " está reptando.");
+    }
+
+    // Métodos único de la serpiente
     public void deslizarse() {
         System.out.println(nombre + " se desliza suavemente por el suelo.");
     }
 
     @Override
     public void verAnimal() {
-        Random random = new Random();
-        Runnable[] acciones = {
-                this::comer,
-                this::dormir,
-                this::moverse,
-                this::tomarSol,
-                this::mudarPiel,
-                this::deslizarse
-        };
-
+        super.verAnimal();
         try {
-            for (int i = 0; i < 5; i++) {
-                int indiceAccion = random.nextInt(acciones.length);
-                acciones[indiceAccion].run();
-
-                int tiempoEspera = random.nextInt(2000) + 1000;
-                Thread.sleep(tiempoEspera);
-            }
+            deslizarse();
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
-}
+}    

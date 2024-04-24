@@ -1,8 +1,11 @@
 // Nuhacet  |  Diego  |  Ancor  |  Daniel
 
-package Zoo;
+package Mamiferos;
+
 
 import java.util.Random;
+import Zoo.Animal;
+
 
 public class Mamifero extends Animal {
     protected String colorpelo;

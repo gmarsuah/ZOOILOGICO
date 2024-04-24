@@ -1,0 +1,126 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+# Compiled class file
+*.class
+
+# Log file
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+>>>>>>> fa7ad4a1320261b2723af9ab4aeab3e67169d566
+# Compiled class files
+*.class
+
+# Log files
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+>>>>>>> fa7ad4a1320261b2723af9ab4aeab3e67169d566
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.nar
+=======
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+*.nar
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+>>>>>>> fa7ad4a1320261b2723af9ab4aeab3e67169d566
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+replay_pid*
+=======
+=======
+replay_pid*
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+>>>>>>> fa7ad4a1320261b2723af9ab4aeab3e67169d566
+
+# Eclipse specific
+.classpath
+.project
+.settings/
+
+# Intellij IDEA specific
+.idea/
+*.iml
+*.iws
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code specific
+.vscode/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Thumbnails
+ehthumbs.db
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7c009e2557dd7ec0756c25efb135d9797057dd29
+=======
+
+>>>>>>> 515ab75fac2267fe3e6546d3ff321fc5873e5e9c
+>>>>>>> fa7ad4a1320261b2723af9ab4aeab3e67169d566
