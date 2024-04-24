@@ -2,10 +2,9 @@ package Zoo;
 import java.util.ArrayList;
 import java.util.List;
 
-import Ave.Aguila;
-import Ave.Colibri;
-import Ave.Loro;
-
+import Anfibio.Rana;
+import Anfibio.Salamandra;
+import Ave.*;
 import Mamiferos.*;
 
 import Reptil.Cocodrilo;

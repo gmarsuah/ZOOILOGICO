@@ -9,11 +9,11 @@ import Zoo.Animal;
 public class Ave extends Animal{
 	protected String colorPiel;
 	protected boolean puedeVolar;
-	protected String tamaño;
+	protected String tamano;
 	
 	private static final String[] coloresPlumasPosibles={"marron","azul","negro","blanco","gris","verde"};
 	
-	private static final String[] tamañoPosible={"pequeño","mediano","grande"};
+	private static final String[] tamanoPosible={"pequeño","mediano","grande"};
 	
 	// Constructor sin parámetros
 	public Ave() {
@@ -21,7 +21,7 @@ public class Ave extends Animal{
 		Random random=new Random();
 		this.puedeVolar=random.nextBoolean();
 		this.colorPiel=coloresPlumasPosibles[random.nextInt(coloresPlumasPosibles.length)];
-		this.tamaño=tamañoPosible[random.nextInt(tamañoPosible.length)];
+		this.tamano=tamanoPosible[random.nextInt(tamanoPosible.length)];
 	}
 	
 	public void volar() {
