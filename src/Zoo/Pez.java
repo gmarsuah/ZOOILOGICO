@@ -23,7 +23,7 @@ public class Pez extends Animal{
         this.tipoAgua = agua[random.nextInt(agua.length)];
     }
 
-    public Pez(String nombre, String edad, String peso, String tamaño, String colorescamas, String tipoAgua) {
+    public Pez(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua) {
         super(nombre, edad, peso);
         this.tamaño = tamaño;
         this.colorEscamas = colorescamas;

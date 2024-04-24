@@ -8,7 +8,7 @@ public class Pez_Tiburon extends Pez {
     protected String[] Especie = {"Tiburón Blanco", "Tiburón Martillo", "Tiburón Tigre", "Tiburón Ballena", "Tiburón Zorro"};
     protected String Longitud; 
 
-    public Pez_Tiburon(String nombre, String edad, String peso, String tamaño, String colorescamas, String tipoAgua, String Especie, String Longitud) {
+    public Pez_Tiburon(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua, String Especie, String Longitud) {
         super(nombre, edad, peso, tamaño, colorescamas, tipoAgua);
         this.Especie[0] = Especie;
         this.Longitud = (Longitud + "m");
