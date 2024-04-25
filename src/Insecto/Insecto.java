@@ -1,6 +1,8 @@
-package Zoo;
+package Insecto;
 import java.util.Random;
 import java.util.function.ToIntBiFunction;
+
+import Zoo.Animal;
 
 /**
  * The type Insecto.

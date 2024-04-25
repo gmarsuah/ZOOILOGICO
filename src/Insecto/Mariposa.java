@@ -1,4 +1,4 @@
-package Zoo;
+package Insecto;
 
 import java.util.Random;
 
