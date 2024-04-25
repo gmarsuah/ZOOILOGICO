@@ -5,11 +5,11 @@ package Zoo;
 import java.util.Random;
 
 public class Pez extends Animal{
-    protected String tamaño;
+    protected String tamano;
     protected String colorEscamas;
     protected String tipoAgua;
 
-    private String[] tamaños = {"diminuto", "pequeño", "mediano", "grande", "enorme"};
+    private String[] tamanos = {"diminuto", "pequeño", "mediano", "grande", "enorme"};
     private String[] colores = {"azul", "rojo", "verde"};
     private String[] agua = {"dulce", "salada"};
     
@@ -18,14 +18,14 @@ public class Pez extends Animal{
     public Pez() {
         super();
         
-        this.tamaño = tamaños[random.nextInt(tamaños.length)];
+        this.tamano = tamanos[random.nextInt(tamanos.length)];
         this.colorEscamas = colores[random.nextInt(colores.length)];
         this.tipoAgua = agua[random.nextInt(agua.length)];
     }
 
-    public Pez(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua) {
+    public Pez(String nombre, int edad, float peso, String tamano, String colorescamas, String tipoAgua) {
         super(nombre, edad, peso);
-        this.tamaño = tamaño;
+        this.tamano = tamano;
         this.colorEscamas = colorescamas;
         this.tipoAgua = tipoAgua;
     }

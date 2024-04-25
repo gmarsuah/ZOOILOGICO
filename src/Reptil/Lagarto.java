@@ -4,24 +4,24 @@ import java.util.Random;
 
 public class Lagarto extends Reptil {
     protected String colorPiel;
-    protected String tamaño;
+    protected String tamano;
 
     private static final String[] coloresPosibles = {"Verde", "Marrón", "Gris"};
-    private static final String[] tamañosPosibles = {"Pequeño", "Mediano", "Grande"};
+    private static final String[] tamanosPosibles = {"Pequeño", "Mediano", "Grande"};
 
     // Constructor sin parámetros
     public Lagarto() {
         super();
         Random random = new Random();
         this.colorPiel = coloresPosibles[random.nextInt(coloresPosibles.length)];
-        this.tamaño = tamañosPosibles[random.nextInt(tamañosPosibles.length)];
+        this.tamano = tamanosPosibles[random.nextInt(tamanosPosibles.length)];
     }
 
     // Constructor con parámetros
-    public Lagarto(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat, String colorPiel, String tamaño) {
+    public Lagarto(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat, String colorPiel, String tamano) {
         super(nombre, edad, peso, tipoPiel, esVeneno, habitat);
         this.colorPiel = colorPiel;
-        this.tamaño = tamaño;
+        this.tamano = tamano;
     }
 
     // Método específico del lagarto para regenerar su cola
