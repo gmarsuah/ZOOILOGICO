@@ -45,6 +45,13 @@ public class Murcielago extends Mamifero {
     public void verAnimal() {
         Random random = new Random();
         Runnable[] acciones = {
+<<<<<<< HEAD:src/Mamiferos/Murcielago.java
+=======
+                this::comer,
+                this::dormir,
+                this::moverse,
+                this::amamantar,
+>>>>>>> cad87eea5ae134d690f71a11ccf943d303e9c0c3:src/Zoo/Murcielago.java
                 this::volar,
                 this::usarEcolocalizacion
         };
