@@ -1,7 +1,6 @@
 package Mamiferos;
 
 import java.util.Random;
-import Zoo.Animal;
 
 public class Murcielago extends Mamifero {
     private static final String[] coloresposibles = {"marron", "negro", "blanco"};
