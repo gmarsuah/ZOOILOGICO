@@ -5,6 +5,8 @@ import java.util.List;
 import Anfibio.Rana;
 import Anfibio.Salamandra;
 import Ave.*;
+import Insecto.Escarabajo;
+import Insecto.Mariposa;
 import Mamiferos.*;
 
 import Reptil.Cocodrilo;
@@ -27,7 +29,6 @@ public class Main {
         listaDeAnimales.add(new Murcielago());
         listaDeAnimales.add(new Serpiente());
         listaDeAnimales.add(new Colibri());
-
         listaDeAnimales.add(new Escarabajo());
         listaDeAnimales.add(new Mariposa());
         listaDeAnimales.add(new Lagarto());

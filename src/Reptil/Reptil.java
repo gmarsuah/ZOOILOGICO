@@ -4,11 +4,22 @@ package Reptil;
 import Zoo.Animal;
 
 import java.util.Random;
-
+/**
+ * Clase reptil que extiende de animal y da los parametros y metodos a las clases hijas (serpiente...)
+ */
 public class Reptil extends Animal {
     // Variables de instancia específicas de los reptiles
+	/**
+	 * String para el tipo de piel
+	 */
     protected String tipoPiel;
-    protected boolean esVeneno; 
+    /**
+	 * Boolean para saber si es venenosa o no
+	 */
+    protected boolean esVeneno;
+    /**
+	 * String para identificar el tipo de habitat
+	 */
     protected String habitat; 
 
     // Array de tipos de piel posibles
@@ -20,7 +31,9 @@ public class Reptil extends Animal {
         Random random = new Random();
         return habitatsPosibles[random.nextInt(habitatsPosibles.length)];
     }
-
+    /**
+     * Constructor sin parametros de reptil
+     */
     // Constructor sin parámetros
     public Reptil() {
         super(); // Llama al constructor de la clase padre (Animal)
@@ -32,7 +45,15 @@ public class Reptil extends Animal {
         // Genera un hábitat aleatorio para el reptil
         this.habitat = generarHabitatAleatorio();
     }
-
+    /**
+     * Constructor de la clase con paramatros
+     * @param nombre del animal
+     * @param edad del animal
+     * @param peso del animal
+     * @param tipoPiel del animal
+     * @param esVeneno del animal
+     * @param habitat del animal
+     */
     // Constructor con parámetros
     public Reptil(String nombre, int edad, float peso, String tipoPiel, boolean esVeneno, String habitat) {
         super(nombre, edad, peso); // Llama al constructor de la clase padre (Animal) con los parámetros correspondientes
@@ -40,16 +61,22 @@ public class Reptil extends Animal {
         this.esVeneno = esVeneno; 
         this.habitat = habitat; 
     }
-
+    /**
+     * Metodo tomar sol que devuelve un print con el nombre y la acción del animal
+     */
     // Métodos específicos de los reptiles
     public void tomarSol() {
         System.out.println(nombre + " está tomando el sol para termorregularse.");
     }
-
+    /**
+     * Metodo mudar piel que devuelve un print con el nombre y la acción del animal
+     */
     public void mudarPiel() {
         System.out.println(nombre + " está mudando de piel.");
     }
-
+    /**
+     * Metodo reptar que devuelve un print con el nombre y la acción del animal
+     */
     public void reptar() {
         System.out.println(nombre + " está reptando.");
     }

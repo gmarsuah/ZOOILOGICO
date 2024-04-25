@@ -1,16 +1,33 @@
-package Zoo;
+package Insecto;
 
 import java.util.Random;
 
 
-
+/**
+ * The type Mariposa.
+ */
 public class Mariposa extends Insecto {
-  String[] patroAlas = {"hepicoptero", "arcoiris", "manatial celestias", "tatuajes antiguos", "punto doble alto"};
-  String[] etapaDeVida = {"larva", "pupa", "adulta", };
-  String patro_alas;
-  String etapa_vida;
+    /**
+     * The Patro alas.
+     */
+    String[] patroAlas = {"hepicoptero", "arcoiris", "manatial celestias", "tatuajes antiguos", "punto doble alto"};
+    /**
+     * The Etapa de vida.
+     */
+    String[] etapaDeVida = {"larva", "pupa", "adulta", };
+    /**
+     * The Patro alas.
+     */
+    String patro_alas;
+    /**
+     * The Etapa vida.
+     */
+    String etapa_vida;
 
-    //contructor sin parametro
+    /**
+     * Instantiates a new Mariposa.
+     */
+//contructor sin parametro
     public Mariposa () {
         super();
         Random random = new Random();
@@ -33,11 +50,17 @@ public class Mariposa extends Insecto {
 
   // Método único de mariposa
 
-  public void metamorfosis() {
+    /**
+     * Metamorfosis.
+     */
+    public void metamorfosis() {
       System.out.println(this.nombre + " está pasando por una metamorfosis.");
   }
 
-  public void libarNectar() {
+    /**
+     * Libar nectar.
+     */
+    public void libarNectar() {
     System.out.println(this.nombre + " la mariposa aterriza en la flor asorbiendo el nectar.");
 }
 
