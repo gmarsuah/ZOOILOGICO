@@ -28,11 +28,16 @@ public class Main {
         listaDeAnimales.add(new Salamandra()); // Añade una instancia de Anfibio genérico
         listaDeAnimales.add(new Murcielago());
         listaDeAnimales.add(new Serpiente());
+
         listaDeAnimales.add(new Colibri());
         listaDeAnimales.add(new Escarabajo());
         listaDeAnimales.add(new Mariposa());
         listaDeAnimales.add(new Lagarto());
         listaDeAnimales.add(new Cocodrilo());
+        listaDeAnimales.add(new Leon());
+        
+        // Cada alumno puede añadir su animal así:
+        // listaDeAnimales.add(new SuAnimal());
 
 
         // Observar a los animales en la lista

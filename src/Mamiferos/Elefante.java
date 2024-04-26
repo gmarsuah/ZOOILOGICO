@@ -8,7 +8,9 @@ public class Elefante extends Mamifero{
     protected String tamañoOreja;
     private static final String[] tamañosPosibles = {"Pequeña" , "Mediana" , "Grande"};
 
-    // constructor sin parametros
+    /**
+     * Constructor sin parametros
+     */
     public Elefante(){
         super();
         Random random = new Random();
@@ -16,7 +18,14 @@ public class Elefante extends Mamifero{
         this.tamañoOreja = tamañosPosibles[random.nextInt(tamañosPosibles.length)];
     }
 
-    // constructor con parametros
+    /**
+     * constructor con parametros
+     * @param colorpelo color del pelo del animal
+     * @param tipoAlimentacion tipo de alimentacion del animal
+     * @param esDomestico si el animal es domestico o no
+     * @param tamañoTrompa tamaño de la trompa del elefante
+     * @param tamañoOreja tamaño de las orejas del elefante
+     */
     public Elefante(String colorpelo, String tipoAlimentacion, boolean esDomestico , String tamañoTrompa , String tamañoOreja){
         super(colorpelo , tipoAlimentacion , esDomestico);
         this.tamañoTrompa = tamañoTrompa;
@@ -24,15 +33,23 @@ public class Elefante extends Mamifero{
     }
 
 
-
+    /**
+     * simula el uso de la trompa del elefante
+     */
     public void usarTrompa() {
         System.out.println(nombre + "el elefante está usando la trompa");
     }
 
+    /**
+     * simula la comunicacion del elefante
+     */
     public void comunicar() {
         System.out.println(nombre + "el elefante está comunicandose");
     }
 
+    /**
+     * Muestra las actividades del animal de manera aleatoria, ejecutando una de las acciones
+     */
     @Override
     public void verAnimal() {
         Random random = new Random();
