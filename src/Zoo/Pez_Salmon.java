@@ -4,7 +4,7 @@ package Zoo;
 
 import java.util.Random;
 
-public class Salmon extends Pez {
+public class Pez_Salmon extends Pez {
     String etapaDeVida;
     boolean haMigrado;
 
@@ -12,13 +12,13 @@ public class Salmon extends Pez {
 
     Random rd = new Random();
 
-    public Salmon() {
+    public Pez_Salmon() {
         super();
         this.etapaDeVida = estapasDeVida[rd.nextInt(estapasDeVida.length)];
         this.haMigrado = rd.nextBoolean();
     }
 
-    public Salmon(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua, String etapaDeVida, boolean haMigrado) {
+    public Pez_Salmon(String nombre, int edad, float peso, String tamaño, String colorescamas, String tipoAgua, String etapaDeVida, boolean haMigrado) {
         super(nombre, edad, peso, tamaño, colorescamas, tipoAgua);
         this.etapaDeVida = etapaDeVida;
         this.haMigrado = haMigrado;
